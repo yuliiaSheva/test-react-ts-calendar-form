@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+:root {
+  --purple-navy: #000853;
+  --purple-deep: #6A19CD;
+  --purple-primary: #761BE4;
+  --purple-light: #CBB6E5;
+  --purple-extra-light: #f3e6ff;
+
+  --gray-light: #FAF9FA;
+
+  --red-deep: #ED4545;
+  --red-light: #FEECEC;
+
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
